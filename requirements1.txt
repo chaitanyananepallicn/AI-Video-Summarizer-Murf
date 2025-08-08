@@ -1,0 +1,25 @@
+# Streamlit for the frontend
+streamlit==1.35.0
+
+# Google Generative AI (Gemini) SDK
+google-generativeai
+
+# Murf TTS API client (if it's custom, ensure your wrapper is inside your project)
+murf  # or your custom wrapper if not on PyPI
+
+# For transliteration prompt processing
+google-auth
+google-api-python-client
+
+# Video processing & tempfile
+python-dotenv
+
+# Voice synthesis
+gTTS
+requests
+
+# Gemini prompt agent system
+phi==0.6.7
+
+# Extra tools used by phi (like DuckDuckGo, etc.)
+duckduckgo-search
